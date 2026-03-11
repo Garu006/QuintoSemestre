@@ -1,0 +1,19 @@
+Análisis y Diseño orientado a objetos
+Clase 1
+
+Principios SOLID: Responsabilidad unica: una clase de tener un solo proposito
+Abierto/cerrado: el codigo debe de estar abierto a la extension pero cerrado a la modificacion a lo que ya existe.
+liskov: las subclases deben poder sustituir a su clase padre sin romper el comportamiento del sistema.
+Interfaces: Es mejor tener multiples interfaces especificas que una interfaz general y monolitica
+
+La clase: es un objeto abstracto, define genéricamente los atributos y comportamientos, no ocupa espacio en memoria
+El objeto: Es un entidad concreta, creada a partir de la clase, ocupa memoria y posee valores independientes.
+
+Encapsulamiento, abstracción, Herencia, Polimorfismo
+
+UML: Lenguaje Unificado de Modelado (no es código) Es el puente entre las necesidades del negocio y la programación final.
+
+
+Hacer una ficha con los conceptos de la primera clase
+
+
