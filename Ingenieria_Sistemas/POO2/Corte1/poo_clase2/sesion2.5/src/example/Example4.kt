@@ -11,5 +11,5 @@ fun evaluarNota(nota: Int){
 }
 
 fun main() {
-    println("Gabriel posee una nota de: ${evaluarNota(69)}")
+    println(evaluarNota(71))
 }
