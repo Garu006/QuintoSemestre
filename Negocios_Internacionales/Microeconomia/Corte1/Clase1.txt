@@ -1,0 +1,51 @@
+Microeconomía
+Clase 1 - 12/3/2026
+
+Unidad 1: Demanda, Oferta y Equilibrio de Mercado
+
+La microeconomía se basa demasiado en el uso de gráficos y tablas ya que estas mismas son las que hacen reflejar ciertos datos que se manejan en dichos proyectos.
+
+uso del plano cartesiano
+
+relaciones positivas y negativas: la positiva se describe como una relación directa entre x e y, una pendiente negativa es una relación indirecta entre x e y.
+
+Demanda: es la cantidad que se va a producir de un servicio o producto que los consumidores están dispuestos a comprar con su dinero.
+
+El consumidor y las empresas son objetos de estudio de la microeconomía
+
+Factores que determinan la demanda: 
+1. El precio del bien
+2. Los precios de los bienes relacionados (sustitutos o complementarios)
+3. El ingreso de los consumidores
+4. Gustos y preferencias de los consumidores
+
+Bienes sustitutos y bienes complementarios
+
+Ingreso de los consumidores: si el ingreso de los consumidores aumenta la cantidad de bienes y servicios comprados
+
+gustos y preferencias del consumidor
+
+el precio del bien en eje Y y la cantidad demandada de ese mismo bien en el eje X
+(la variable X depende del precio)
+
+Linea de demanda: cuando se grafica la linea de demanda solo se relaciona el precio del mismo bien y la cantidad demandada de ese mismo bien
+
+Ley de demanda: cuanto mas alto es el precio de un bien o servicio menor es la cantidad demandada
+
+Formacion de una ecuacion de demanda:
+Un factor constante y otro variable: Qx = C - Px
+
+no es lo mismo un un cambio en la cantidad demandada que un cambio en la demanda
+
+todos los desplazamientos a la izquierda o a la derecha son producto del cambio de la demanda, si disminuye  la cantidad demandada se desplaza a la izquierda y si aumenta la cantidad demandada se desplaza a la derecha
+
+cambio en la cantidad demandada es cuando aumenta el precio del mismo bien y el cambio de la demanda es cuando aumenta todo lo demas que no tiene que ver con el mismo bien.
+
+Oferta: Es cuando el servicio lanza un producto a cierta cantidad de precio por una cierta cantidad de tiempo, si los precios son altos la cantidad demandada va a ser baja, si los precios son bajos van a lanzar mas productos
+
+Factores que determinan la oferta:
+1. Precio del mismo bien
+2. Tecnología
+3. Precios de los bienes relacionados
+4. Competencia
+
