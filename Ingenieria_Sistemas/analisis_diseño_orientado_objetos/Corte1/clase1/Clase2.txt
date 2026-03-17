@@ -1,0 +1,105 @@
+Analisis y diseño orientado a objetos
+Clase 2 3/17/2026
+
+La naturaleza compleja del software
+
+los sistemas informaticos crecen invitablemente en tamaño y funcionaliidad	
+
+La modularidad permite dividir el sistema en componentes independientes.
+Modelo: Representar visualmente las iteracciones antes de codificar.
+Arquitectura: Definir la estructura macro y las reglas de colaboracion.
+
+métodos = comportamientos
+
+esquema estático es ideal para la reutilización del codigo
+
+El actor: quien inicia el evento.
+El sistema: El límite de lo que la aplicación debe resolver funcionalmente, ignorando cómo lo hace internamente.
+El objetivo: Que valor o resultado busca el actor. 
+
+recordatorio: partes de un sistema = entrada, proceso y salida, siempre se inicia con la salida.
+
+Arquitectura a escala de sistema
+
+Patrones arquitectónicos
+Arquitectura en capas, arquitectura MVC (modelo, vista, controlador), microservicios: son servicios independientes altamente encapsulados que se comunican por red, el uso ideal es el sistema que uno sepa que va a ser muy escalable.
+
+El ecocistema Orientado a objetos:
+1. Interacción: El actor ejecuta un acto de uso
+2. Oranización: La petición entra en una estructura macro
+3. Colaboración: Los Objetos intercambian mensajes para cumplir el objetivo
+
+-----------------------------------------------------------------------------
+
+Objetivo principal: Diseñar la arquitectura conceptual de un nuevo sistema de Gestion universitaria utilizando principios OO
+
+1. Requisitos: Identificar los actores clave y definir al menos 3 casos de uso principales.
+2. Abstraccion: Definir las clases centrales
+3. Esbozar las interacciones utilizando notacion UML basica
+4. Macro-diseño: Seleccionar y justificar un patron arquitectonico (capas, mvc, o microservicios) para el sistema.
+
+Requisitos:
+actores clave = Estudiante, Docente, cartera y cobro, administrador académico, coordinador de carrera.
+
+el estudiante consulta las materias, se matricula, revisa calificaciones y horario.
+Docente: gestiona los cursos, registra notas y consulta listas de estudiantes.
+Cartera: valida pagos de matricula o aranceles.
+administrador: administra estudiantes, docentes, carreras, materias.
+coordinador academic: supervisa la oferta academica y asignacion de materias.
+
+casos de uso principales:
+1. matricular estudiante en asignaturas = el estudiante registra la matricula en un periodo académico y selecciona las asignaturas que le corresponden.
+2. Registrar calificaciones = El docente ingresa las notas de los estudiantes inscritos en su asignatura.
+3. Consultar historial académico = El estudiante o el administrador consulta las materias cursadas, notas y estado académico del alumno
+
+Abstracción:
+
+Clase Estudiante:
+atributos: 
+1. idEstudiane
+2. nombre
+3. carnet
+4. correo
+5. carrera
+6. estado
+
+métodos:
+1. matricular()
+2. consultarHorario()
+3. consultarHistorial()
+
+Clase Docente:
+atributos:
+1. idDocente
+2. nombre
+3. especialidad
+4. correo
+
+métodos:
+1. registrarCalificacion()
+2. consultarCursosAsignados()
+
+Clase Asignatura:
+atributos:
+1. codigo
+2. nombre
+3. semestre
+
+métodos: 
+1. mostrarInformacion()
+
+Clase matricula:
+atributos:
+1. idMatricula
+2. fecha
+3. periodo
+4. estado
+5. estudiante
+
+métodos:
+1. generarMatricula()
+2. cancelarMatricula()
+
+Clase Calificacion:
+atributos:
+1. idCalificacion
