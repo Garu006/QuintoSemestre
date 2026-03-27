@@ -1,0 +1,10 @@
+Clase 3
+Elasticidad precio de la demanda: variacion porcentual  en la cantidad demandada de un bien o servicio frente a variacion porcentual en el precio del mismo bien o servicio.
+
+EpD = Var%Qd/Var%P
+
+El signo negativo significa el vinculo inverso entre el precio y la cantidad demandada.
+
+la "Y" es el ingreso de los consumidores
+
+
